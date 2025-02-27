@@ -1,13 +1,17 @@
+import typer
 
-
-import pandas as pd
-import xgboost as xgb
-
+from src.nlp import sentiment_analysis
 from src.get_first_rows import get_first_rows
 from src.xgb_classifier import xgb_classifier
 
-if __name__ == '__main__':
-    print("hello")
+
+app = typer.Typer()
+
+app.add_typer(sentiment_analysis.app)
+
+if __name__ == "__main__":
+    app()
+
 
     path1 = "data/All_Beauty.jsonl"
     path2 = "data/meta_All_Beauty.jsonl"
@@ -21,8 +25,3 @@ if __name__ == '__main__':
 
     xgb_classifier(df1)
 
-    
-
-
-
-    
