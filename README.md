@@ -9,6 +9,7 @@ We download Amazon product reviews data from https://amazon-reviews-2023.github.
 - wrap up the app using FastAPI routes and dockerinzing it
 
 ## Pipeline Snapshot
+<img src="https://github.com/samsam996/recommandation_system_bert/blob/feature_1/figures/pipeline.png?raw=true" width="700">
 
 
 ## Virtual environment
