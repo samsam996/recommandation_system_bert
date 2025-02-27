@@ -4,9 +4,6 @@
 We download Amazon product reviews data from https://amazon-reviews-2023.github.io/, load them to a postgres database and develop a recommender system.
 - embed reviews using a pre-trained embedding BERT or TF-IDF method
 - build a sentiment classifier (compare various models amongst random forests, gradient boosting and BERT)
-- create an interactive dashboard for data visualization and model performance analysis
-- implement the recommendation system
-- wrap up the app using FastAPI routes and dockerinzing it
 
 ## Pipeline Snapshot
 <img src="https://github.com/samsam996/recommandation_system_bert/blob/feature_1/figures/pipeline.png?raw=true" width="700">
